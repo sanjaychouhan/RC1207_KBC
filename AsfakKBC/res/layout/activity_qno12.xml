@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".StartGame" 
+    android:background="#000000" >
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/asc" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/editText2"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:onClick="bClick"
+        android:text="B.7"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_alignLeft="@+id/editText3"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:onClick="dClick"
+        android:text="D. 2"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignParentTop="true"
+        android:text="JIT TechnoVation"
+        android:textColor="#00D4FF"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignRight="@+id/editText5"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:text="Q. 12. Yahoo Search Engine Ranking  "
+        android:textColor="#000000"
+        android:inputType="textMultiLine|textNoSuggestions" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="30dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:onClick="aClick"
+        android:text="A. 13"
+        android:textColor="#000000" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="21dp"
+        android:layout_toLeftOf="@+id/editText3"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:onClick="cClick"
+        android:text="C. 3"
+        android:textColor="#000000" />
+
+</RelativeLayout>

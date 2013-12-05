@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asfakkbc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.asfakkbc.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.StartGame"
+            android:label="@string/title_activity_start_game" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Demo"
+            android:label="@string/title_activity_demo" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Price"
+            android:label="@string/title_activity_price" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Level1"
+            android:label="@string/title_activity_level1" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Qno2"
+            android:label="@string/title_activity_qno2" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Level2"
+            android:label="@string/title_activity_level2" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Qno3"
+            android:label="@string/title_activity_qno3" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Level3"
+            android:label="@string/title_activity_level3" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Qno4"
+            android:label="@string/title_activity_qno4" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Level4"
+            android:label="@string/title_activity_level4" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Qno5"
+            android:label="@string/title_activity_qno5" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Qno6"
+            android:label="@string/title_activity_qno6" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Qno7"
+            android:label="@string/title_activity_qno7" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Level5"
+            android:label="@string/title_activity_level5" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Level6"
+            android:label="@string/title_activity_level6" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Level7"
+            android:label="@string/title_activity_level7" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Level8"
+            android:label="@string/title_activity_level8" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Level9"
+            android:label="@string/title_activity_level9" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Level10"
+            android:label="@string/title_activity_level10" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Level11"
+            android:label="@string/title_activity_level11" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Level12"
+            android:label="@string/title_activity_level12" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Qno8"
+            android:label="@string/title_activity_qno8" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Qno9"
+            android:label="@string/title_activity_qno9" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Qno10"
+            android:label="@string/title_activity_qno10" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Qno11"
+            android:label="@string/title_activity_qno11" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Qno12"
+            android:label="@string/title_activity_qno12" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Price1"
+            android:label="@string/title_activity_price1" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Price2"
+            android:label="@string/title_activity_price2" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Price3"
+            android:label="@string/title_activity_price3" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Price4"
+            android:label="@string/title_activity_price4" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Price5"
+            android:label="@string/title_activity_price5" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Price6"
+            android:label="@string/title_activity_price6" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Price7"
+            android:label="@string/title_activity_price7" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Price8"
+            android:label="@string/title_activity_price8" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Price9"
+            android:label="@string/title_activity_price9" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Price10"
+            android:label="@string/title_activity_price10" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Price11"
+            android:label="@string/title_activity_price11" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Qno13"
+            android:label="@string/title_activity_qno13" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Level13"
+            android:label="@string/title_activity_level13" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Price0"
+            android:label="@string/title_activity_price0" >
+        </activity>
+        <activity
+            android:name="com.example.asfakkbc.Pricen"
+            android:label="@string/title_activity_pricen" >
+        </activity>
+    </application>
+
+</manifest>
